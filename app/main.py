@@ -7,7 +7,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from typing import List
 
 #models.Base.metadata.create_all(bind=engine)
-
+#hola
+hola = 0
 app = FastAPI()
 
 origins: List = ["*"]
